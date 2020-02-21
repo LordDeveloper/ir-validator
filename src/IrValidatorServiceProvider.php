@@ -33,10 +33,10 @@ class IrValidatorServiceProvider extends ServiceProvider
     public function messages()
     {
         return [
-            'national_code' => 'The :attribute is not a valid Iranian national code.',
-            'iban' => 'The :attribute is not a valid IBAN account number.',
-            'debit_card' => 'The :attribute is not a valid debit card number.',
-            'postal_code' => 'The :attribute is not a valid postal code.',
+            'national_code' => 'فیلد شماره‌ی ملی دربردارنده‌ی یک مقدار معتبر نمی‌باشد، لطفاً آن‌را بررسی و مجدداً وارد نمایید.',
+            'iban' => 'فیلد شماره‌ی شبا دربردارنده‌ی یک مقدار معتبر نمی‌باشد، لطفاً آن‌را بررسی و مجدداً وارد نمایید.',
+            'debit_card' => 'فیلد شماره‌ی حساب دربردارنده‌ی یک مقدار معتبر نمی‌باشد، لطفاً آن‌را بررسی و مجدداً وارد نمایید.',
+            'postal_code' => 'فیلد کدپستی دربردارنده‌ی یک مقدار معتبر نمی‌باشد، لطفاً آن‌را بررسی و مجدداً وارد نمایید.',
         ];
     }
 
